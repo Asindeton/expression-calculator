@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const { expressionCalculator } = require('./src/index.js');
 
-/* describe("Easy", function() {
+describe("Easy", function() {
     it("Test simple addition", function() {
         const expr = "2 + 2";
         const result = 4;
@@ -122,7 +122,7 @@ const { expressionCalculator } = require('./src/index.js');
         expect(Number(expressionCalculator(expr).toFixed(4))).to.equal(result);
     });
 });
- */
+
 describe("Medium", function() {
     it("Brackets must be paired", function() {
         const expr = "1 + 2) * 3";
